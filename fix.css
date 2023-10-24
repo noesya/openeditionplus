@@ -1,0 +1,68 @@
+#header,
+#wrapper,
+#content {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+#content,
+#main {
+  width: 75% !important;
+}
+#siteName a img[alt] {
+  display: block;
+}
+#docTitle {
+  font-weight: normal !important;
+  font-size: 2.5rem !important;
+  font-weight: normal !important;
+}
+#barre {
+  padding: 1rem;
+}
+#abstract .resume,
+p.texte, 
+p.annexe, 
+p.reponse,
+p.question,
+p.bibliographie,
+p.paragraphesansretrait,
+p.citation {
+  font-size: 1.3rem;  
+  line-height: 150%;
+  text-align: left;
+}
+#docTitle,
+#abstract .resume,
+p.texte, 
+p.annexe, 
+p.reponse, 
+p.question,
+p.bibliographie,
+p.paragraphesansretrait,
+p.citation,
+div.text h1,
+div.docHeader h1 {
+  font-family: "Baskerville", serif !important;
+}
+p.citation {
+  font-style: italic;
+  font-size: 1.6rem;
+}
+div.text h1,
+div.docHeader h1 {
+  font-weight: normal !important;
+  margin-top: 5rem !important;
+  font-size: 2rem !important;
+}
+.paranumber,
+a.footnotecall {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+sup, sub {
+  line-height: 100%
+}
+#logos {
+  mix-blend-mode: multiply;
+}

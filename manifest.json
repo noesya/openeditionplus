@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "OpenEdition+",
+  "description": "OpenEdition, en mieux",
+  "version": "1.0",
+  "content_scripts": [ 
+    {
+      "css": ["fix.css"],
+      "matches": ["https://*.openedition.org/*"]
+    }
+  ],
+  "icons": {
+    "16": "icon32.png",
+    "32": "icon32.png",
+    "48": "icon32.png",
+    "128": "icon32.png"
+  }
+}
