@@ -33,4 +33,4 @@ La lecture de cette petite colonne de texte sur un grand écran vide est très s
 
 ## Est-ce qu'on peut contribuer ?
 
-Bien sûr ! N'hésitez pas à faire une Pull Request pour améliorer le CSS. 
+Bien sûr ! N'hésitez pas à faire une Pull Request pour améliorer le CSS, pour faire une version Firefox, ou pour d'autres idées.
