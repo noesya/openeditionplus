@@ -23,14 +23,9 @@ function isOpenEdition(url) {
   }
   return false;
 }
-chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
-  console.log(tabs[0].url);
-});
 
 chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
   if (changeInfo.status == 'complete' && tab.active) {
-
-    console.log(tab);
     if (isOpenEdition(tab.url)) {
       injectCSS(tab);
     }  
