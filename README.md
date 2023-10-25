@@ -27,6 +27,8 @@ https://www.accede-web.com/notices/editoriale-modele/bonnes-pratiques/ne-pas-jus
 
 ### Pages trop étroites
 
-Certains écrans sont plus grands que dans le passé, et la lecture d'une petite colonne de texte sur un grand écran est pénible.
+Les résolutions des écrans se sont progressivement agrandies, passant de 800×600 en 2000 à 1024×768 en 2007, à 1280×800 en 2011, et à 1920×1080 aujourd'hui.
+Les pages des publications OpenEditon ont une largeur de 900px, c'est à dire que le design est resté bloqué autour des résolutions de 2007. Sur un écran en 1920, ça veut dire que 1020 pixels sont vides. Il faut ajouter à cela la colonne de gauche et les marges, laissant une largeur de texte de 528px. 
+La lecture de cette petite colonne de texte sur un grand écran vide est très sous-optimale.
 
-*L'extension étend la largeur de page*
+*L'extension étend la largeur de page à 1920, et la colonne de texte à 984px sur un écran de cette taille*
