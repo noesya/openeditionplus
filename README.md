@@ -13,7 +13,7 @@ Le fichier corrige les problèmes suivants.
 
 Les textes ont une taille de 12px, alors que la bonne pratique d'accessibilité est de ne pas descendre en dessous de 16px. 
 
-*L'extension passe le corps de texte en corps 21px*
+**L'extension passe le corps de texte en corps 21px**
 
 https://accessibleweb.com/question-answer/minimum-font-size/
 
@@ -21,7 +21,7 @@ https://accessibleweb.com/question-answer/minimum-font-size/
 
 Les paragraphes sont justifiés, probablement en héritage d'une tradition de composition typographique imprimée. Malheureusement, la justification est une opération subtile qui vise à éviter les lézardes, doser les césures, harmoniser le gris typographique. La justification automatique opérée par le navigateur ne sait pas gérer cette subtilité, et la responsivité des pages empêche un éventuel ajustement manuel. À la fois pour des raisons de qualité graphique et d'accessibilité, on ne justifie pas les textes sur le Web. 
 
-*L'extension aligne le texte à gauche*
+**L'extension aligne le texte à gauche*
 
 https://www.accede-web.com/notices/editoriale-modele/bonnes-pratiques/ne-pas-justifier-le-texte/
 
@@ -31,4 +31,4 @@ Les résolutions des écrans se sont progressivement agrandies, passant de 800×
 Les pages des publications OpenEditon ont une largeur de 900px, c'est à dire que le design est resté bloqué autour des résolutions de 2007. Sur un écran en 1920, ça veut dire que 1020 pixels sont vides. Il faut ajouter à cela la colonne de gauche et les marges, laissant une largeur de texte de 528px. 
 La lecture de cette petite colonne de texte sur un grand écran vide est très sous-optimale.
 
-*L'extension étend la largeur de page à 1920, et la colonne de texte à 984px sur un écran de cette taille*
+**L'extension étend la largeur de page à 1920, et la colonne de texte à 984px sur un écran de cette taille**
