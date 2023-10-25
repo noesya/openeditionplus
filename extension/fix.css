@@ -1,52 +1,66 @@
+/* 
+Largeur de page trop étroite
+*/
 #header,
 #wrapper,
 #content {
   width: 100% !important;
+  max-width: 1920px !important;
   overflow-x: hidden !important;
 }
+/* 
+Colonne trop petite
+*/
 #content,
 #main {
   width: 75% !important;
 }
+/* 
+Nom de la publication centrée
+*/
 #siteName a img[alt] {
   display: block;
 }
-#docTitle {
-  font-weight: normal !important;
-  font-size: 2.5rem !important;
-  font-weight: normal !important;
-}
+/* 
+Espace trop petit
+*/
 #barre {
   padding: 1rem;
 }
+/*
+Typo trop petite
+*/
+#docTitle,
+#front p,
 #abstract .resume,
+ul.summary .title,
+ul.summary .introduction p,
+#publiIntroduction p, 
+#publiIntroduction .tabContent,
+#publiTitle .title,
 p.texte, 
 p.annexe, 
 p.reponse,
 p.question,
 p.bibliographie,
 p.paragraphesansretrait,
-p.citation {
-  font-size: 1.3rem;  
-  line-height: 150%;
-  text-align: left;
-}
-#docTitle,
-#abstract .resume,
-p.texte, 
-p.annexe, 
-p.reponse, 
-p.question,
-p.bibliographie,
-p.paragraphesansretrait,
 p.citation,
 div.text h1,
 div.docHeader h1 {
+  font-size: 1.3rem !important;
+  line-height: 150% !important;
+  text-align: left !important;
   font-family: "Baskerville", serif !important;
 }
+#docTitle,
+#publiTitle .title {
+  font-weight: normal !important;
+  font-size: 2.5rem !important;
+  line-height: 120% !important;
+}
 p.citation {
-  font-style: italic;
-  font-size: 1.6rem;
+  font-style: italic !important;
+  font-size: 1.6rem !important;
 }
 div.text h1,
 div.docHeader h1 {
@@ -60,9 +74,15 @@ a.footnotecall {
   font-size: 0.8rem;
   font-weight: normal;
 }
+/* 
+Appels de notes qui augmentent l'interlignage
+*/
 sup, sub {
-  line-height: 100%
+  line-height: 100% !important;
 }
+/* 
+Logos sur fond de couleur qui fond des cadres
+*/
 #logos {
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply !important;
 }
