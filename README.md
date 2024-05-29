@@ -7,7 +7,7 @@ Avec OpenEdition+, c'est super tout court !
 
 C'est une toute petite extension, Chrome uniquement pour l'instant, qui charge un fichier CSS en plus sur les pages des publications du domaine openedition.org. Le fichier corrige les problèmes suivants.
 
-Pour l'installer sur Chrome, le plus simple est [https://chromewebstore.google.com/detail/openedition+/cmfggaciebmfohnfapbdjeemcbgagibf](le Chrome store).
+Pour l'installer, [le plus simple est le Chrome store](https://chromewebstore.google.com/detail/openedition+/cmfggaciebmfohnfapbdjeemcbgagibf).
 
 ### Typos trop petites
 
